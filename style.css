@@ -9,22 +9,16 @@
     
 } */
 
-.box {
+.particles-js-canvas-el {
+    min-height: max-content;
+}
+
+.particles {
     background: linear-gradient(90deg, rgb(9, 9, 102) 0%, rgb(9, 9, 70) 39%, rgb(3, 3, 12) 100%);
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
 
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 25%;
-    margin: auto;
-}
+
 
 .container {
     color: #fff;
@@ -35,20 +29,6 @@
     width: 80%;
 }
 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px auto;
-}
-
 .prom {
     margin: 5px;
-}
-
-#particles-js {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
 }
