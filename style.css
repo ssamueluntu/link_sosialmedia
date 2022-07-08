@@ -9,12 +9,12 @@ body {
     background: linear-gradient(90deg, rgb(9, 9, 102) 0%, rgb(9, 9, 70) 39%, rgb(3, 3, 12) 100%);
 }
 
-.wrapper {
-    height: 100vh;
-    width: 100vw;
+/* .wrapper {
+    height: 100%;
+    width: 100%;
     display: flex;
     overflow: hidden;
-}
+} */
 
 .container {
     color: #fff;
@@ -25,10 +25,13 @@ body {
 }
 
 .container {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     align-items: center;
     position: relative;
+    top: 250px;
     width: 80%;
     margin: auto;
 }
@@ -37,6 +40,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     align-items: center;
     margin: 20px auto;
 }
@@ -45,10 +49,10 @@ body {
     margin: 5px;
 }
 
-
 #particles-js {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    width: 100vw;
-    height: 100vh;
     overflow: hidden;
+
 }
