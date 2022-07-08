@@ -4,19 +4,27 @@
     padding: 0;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-    /* background: rgb(10, 10, 65); */
+/* body {
+    background: rgb(10, 10, 65);
+    
+} */
+
+.box {
     background: linear-gradient(90deg, rgb(9, 9, 102) 0%, rgb(9, 9, 70) 39%, rgb(3, 3, 12) 100%);
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+
 }
 
-/* .wrapper {
-    height: 100%;
-    width: 100%;
+.container {
     display: flex;
-    overflow: hidden;
-} */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 25%;
+    margin: auto;
+}
 
 .container {
     color: #fff;
@@ -26,17 +34,6 @@ body {
     backdrop-filter: blur(5px);
     width: 80%;
 }
-
-.container {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    height: 100%;
-}
-
 
 .content {
     display: flex;
@@ -50,7 +47,8 @@ body {
 }
 
 #particles-js {
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     position: absolute;
+    overflow: hidden;
 }
