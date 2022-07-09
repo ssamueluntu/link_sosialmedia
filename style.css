@@ -10,11 +10,14 @@
 } */
 
 .particles-js-canvas-el {
-    min-height: max-content;
+    height: 100vh;
+    width: 100vw;
 }
 
 .particles {
     background: linear-gradient(90deg, rgb(9, 9, 102) 0%, rgb(9, 9, 70) 39%, rgb(3, 3, 12) 100%);
+    height: 100vh;
+    width: 100vw;
 
 }
 
