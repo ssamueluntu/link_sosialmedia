@@ -12,6 +12,7 @@ body {
 @media (min-width: 576px) { 
     .container {
         height: 100%;
+        overflow: scroll;
     }
  }
 
