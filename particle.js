@@ -28,6 +28,11 @@
          },
      },
      particles: {
+        number: { 
+            density: { 
+                enable: true, 
+                value_area: 800 }, 
+            value: 80 },
          links: {
              enable: true, // this enables links between particles
              opacity: 0.3,
