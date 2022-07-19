@@ -14,9 +14,7 @@ body {
         overflow: scroll;
     }
     .container {
-        overflow: auto;
-        
-
+        height: 100vh;
     }
  }
 
